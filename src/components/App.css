@@ -23,27 +23,11 @@ button {
   border: 3px solid #6f2232;
   text-transform: uppercase;
   border-radius: 30px;
-  transition: .4s;
+  transition: 0.4s;
 }
 
 button:hover {
   background-color: #6f2232;
   color: #1a1a1d;
-  box-shadow: 0 0 60px #6f2232, 0 0 40px #6f2232
-}
-
-
-.wrapper {
-  display: flex;
-  flex-wrap: nowrap;
-  flex-direction: row;
-  width: 100%;
-  justify-content: center;
-}
-
-img {
-  margin: 50px;
-  width: 300px;
-  height: 200px;
-  box-shadow: 0 0 20px #6f2232, 0 0 10px #6f2232
+  box-shadow: 0 0 60px #6f2232, 0 0 40px #6f2232;
 }

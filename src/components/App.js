@@ -62,21 +62,7 @@ class App extends Component {
     return (
       <div className="App">
         <button onClick={this.handlePictureShow}>Next</button>
-        <Result abc={this.state} />
-        {/* <div className="wrapper">
-          <img
-            src={`http://source.unsplash.com/${this.state.slugs[0]}`}
-            alt="Logo"
-          />
-          <img
-            src={`http://source.unsplash.com/${this.state.slugs[1]}`}
-            alt="Logo"
-          />
-          <img
-            src={`http://source.unsplash.com/${this.state.slugs[2]}`}
-            alt="Logo"
-          />
-        </div> */}
+        <Result stateValues={this.state} />
       </div>
     );
   }

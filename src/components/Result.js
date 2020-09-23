@@ -2,22 +2,17 @@ import React from "react";
 import "./Result.css";
 
 const Result = (props) => {
-  const { slugs, err } = props.abc;
+  const { slugs, err } = props.stateValues;
 
-  let content = null;
-
+  const images = [];
   if (!err && slugs) {
-    for (let i = 0; i < slugs.length; i++) {
-      content = (
-        <div className="wrapper">
-          <img
-            src={`http://source.unsplash.com/${this.state.slugs[i]}`}
-            alt="Logo"
-          />
-        </div>
+    for (const value of slugs.values()) {
+      images.push(
+        <img src={`http://source.unsplash.com/${value}`} alt="Logo" />
       );
     }
   }
-  return content;
+
+  return <div className="wrapper">{images}</div>;
 };
 export default Result;

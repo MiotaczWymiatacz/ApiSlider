@@ -1,0 +1,14 @@
+.wrapper {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+}
+
+img {
+    margin: 50px;
+    width: 300px;
+    height: 200px;
+    box-shadow: 0 0 40px #6f2232, 0 0 20px #6f2232;
+}
