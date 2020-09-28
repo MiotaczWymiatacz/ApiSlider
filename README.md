@@ -1,4 +1,4 @@
-#ReactWeatherAPp
+#ApiSlider
 
 LINK: https://miotaczwymiatacz.github.io/ApiSlider/
 
